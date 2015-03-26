@@ -1,4 +1,7 @@
 Phone::Application.routes.draw do
+  get "home/list"
+  get "home/add"
+  get "home/add_process"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
