@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
   def list
-  end
+  	@numbers = Number.all #결과가 배열에 담김
+	end
 
   def add
   end
